@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-pocket-server-api",
+  "version": "1.0.0",
+  "description": "Retrieve information from your Minecraft Bedrock Edition server using minecraftpocket-servers.com",
+  "main": "./src/index.js",
+  "scripts": {
+    "getAll": "node ./test/getAll.js",
+    "getAllVote": "node ./test/getAllVotes.js",
+    "getAllVotePrevious": "node ./test/getAllVotesPrevious.js",
+    "getAllVoteCurrent": "node ./test/getAllVotesCurrent.js",
+    "withValue": "node ./test/withValue.js",
+    "getVotes": "node ./test/getVotes.js"
+  },
+  "keywords": [
+    "mcpe",
+    "mcpe-ping",
+    "bedrock-ping",
+    "mcbe",
+    "minecraft",
+    "minecraftpocketserver",
+    "minecraft-pocket-server"
+  ],
+  "author": "JblusItsMe",
+  "license": "ISC"
+}
